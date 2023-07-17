@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/venta_option"
+        android:title="Venta"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/compra_option"
+        android:title="Compra"
+        android:orderInCategory="200"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/lista_option"
+        android:title="Lista de Productos"
+        android:orderInCategory="200"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/cerrar_sesion_option"
+        android:title="Cerrar sesión"
+        android:orderInCategory="300"
+        android:showAsAction="never" />
+</menu>

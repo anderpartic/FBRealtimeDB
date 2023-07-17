@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="PRODUCTO"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etCodigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ingrese Código"
+                    android:inputType="number"
+                    android:paddingHorizontal="10dp"
+                    android:textColor="#2196F3"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etNomProducto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ingrese nombre de producto"
+                    android:inputType="text"
+                    android:paddingHorizontal="10dp"
+                    android:textColor="#2196F3"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etStock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ingrese Stock"
+                    android:inputType="number"
+                    android:paddingHorizontal="10dp"
+                    android:textColor="#2196F3"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etCosto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ingrese precio de costo"
+                    android:inputType="numberDecimal"
+                    android:paddingHorizontal="10dp"
+                    android:textColor="#2196F3"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etVenta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ingrese precio de venta"
+                    android:inputType="numberDecimal"
+                    android:paddingHorizontal="10dp"
+                    android:textColor="#2196F3"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <TableLayout
+                android:layout_width="400dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/btnGuardar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="#009999"
+                        android:text="Guardar"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btnActualizar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:text="Actualizar"
+                        android:background="#0033CC"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <Button
+                        android:id="@+id/btnBuscar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="#009900"
+                        android:text="Buscar"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btnEliminar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="#FF0000"
+                        android:text="Borrar"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/btnRegresar"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="#0000AA"
+                android:text="Regresar"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textAllCaps="false"
+                 />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

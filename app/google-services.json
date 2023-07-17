@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "295242611303",
+    "project_id": "fir-db-67079",
+    "storage_bucket": "fir-db-67079.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295242611303:android:429ffc70e3accb6f3032c2",
+        "android_client_info": {
+          "package_name": "com.anderson.fbrealtimedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295242611303-h5et269vp8i8105utrde7thoq95e2bl6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anderson.fbrealtimedb",
+            "certificate_hash": "0acf903a929288dfb31fbec995dd447be8ad6e40"
+          }
+        },
+        {
+          "client_id": "295242611303-3udeck68esp1iseppjvnrt99020ms8va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_JwMX1wtqclj3P42bzitLMPmOYLlXTfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295242611303-3udeck68esp1iseppjvnrt99020ms8va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
